@@ -1,81 +1,124 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="/assets/Styles/styles.css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Oxygen:wght@300;400;700&family=Poppins:ital,wght@0,400;0,600;1,200;1,700&display=swap"
-      rel="stylesheet"
-    />
-    <title>Luis Olivares</title>
-  </head>
-  <body>
-    <header class="header">
-      <div class="container logo-nav-container">
-        <a class="logo" href="/">OLIVARES</a>
 
-        <span class="menu-icon">
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            viewBox="-5 -7 24 24"
-            width="32"
-            fill="currentColor"
-          >
-            <path
-              d="M1 0h5a1 1 0 1 1 0 2H1a1 1 0 1 1 0-2zm7 8h5a1 1 0 0 1 0 2H8a1 1 0 1 1 0-2zM1 4h12a1 1 0 0 1 0 2H1a1 1 0 1 1 0-2z"
-            ></path></svg
-        ></span>
-        <nav class="navigation">
-          <ul>
-            <li>
-              <a href="">Inicio</a>
-            </li>
-            <li>
-              <a href="">Acerca</a>
-            </li>
-            <li>
-              <a href="">Habilidades</a>
-            </li>
-            <li>
-              <a href="">Educacion</a>
-            </li>
-            <li>
-              <a href="">Tecnologias</a>
-            </li>
-            <li>
-              <a href="">Contacto</a>
-            </li>
-          </ul>
-        </nav>
-      </div>
-    </header>
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="/assets/Styles/styles.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+    rel="stylesheet">
+  <script src="https://kit.fontawesome.com/982f3bb3ad.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+  <title>Luis Olivares</title>
+</head>
 
-    <main class="main">
-      
+<body>
+  <header class="header">
+    <div class="container logo-nav-container">
+      <a class="logo" href="/">OLIVARES</a>
+
+      <span class="menu-icon">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="-5 -7 24 24" width="32" fill="currentColor">
+          <path
+            d="M1 0h5a1 1 0 1 1 0 2H1a1 1 0 1 1 0-2zm7 8h5a1 1 0 0 1 0 2H8a1 1 0 1 1 0-2zM1 4h12a1 1 0 0 1 0 2H1a1 1 0 1 1 0-2z">
+          </path>
+        </svg></span>
+      <nav class="navigation">
+        <ul>
+          <li>
+            <a href="#inicio">Inicio</a>
+          </li>
+          <li>
+            <a href="">Acerca</a>
+          </li>
+          <li>
+            <a href="">Habilidades</a>
+          </li>
+          <li>
+            <a href="">Educacion</a>
+          </li>
+          <li>
+            <a href="">Tecnologias</a>
+          </li>
+          <li>
+            <a href="">Contacto</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main class="main">
+    <section class="inicio seccion">
       <div class="container">
 
         <div class="contenedor-inicio">
-          <div class = "social-bar">
-            <i class="uil uil-facebook"></i>
-          </div>
 
           <div class="contenedor-text">
-
-            <div class="presentacion">
-              <h2>Hola!! soy Luis</h2>
-              <h5>Estudiante Ingenieria de sistemas</h5>
+            <div class="social-bar">
+              <a href=""><i class="fab fa-circle fa-github-alt"></i></a>
+              <a href=""><i class="fab fa-facebook-f"></i></a>
+              <a href=""><i class="fab fa-whatsapp"></i></a>
+              <a href=""><i class="fab fa-linkedin-in"></i></a>
             </div>
-    
-            <div class="descripcion">
-              <p>Soy una persona alegre y muy fiel a sus ideales, me encanta la tecnologia y mi mas grande sueño es poder vivir de lo que me apasiona.</p>
+            <div class="presentacion">
+              <h2>Hola, soy Luis</h2>
+              <h5>ESTUDIANTE DE INGENIERIA DE SISTEMAS</h5>
+              <h6>DESAROLLADOR FRONT-END</h6>
+              <p class="text ">
+                Soy una persona alegre que le encanta el desarollo web,
+                mi mas grande sueño es poder vivir de lo que me
+                apasiona.
+              </p>
+              <button class="contactame-button"> Contactame</button>
+            </div>
+          </div>
+          <img class="imagen-inicio" src="./assets/Img/luis.jfif" alt="Luis Olivares" title="Luis Olivares">
+        </div>
+
+        <div class="desplazarse">
+          <i class="uil uil-mouse-alt"></i>
+          <p>Desplazarse</p>
+          <i class="uil uil-angle-down"></i>
+        </div>
+
+      </div>
+
+    </section>
+
+    <section class="acerca seccion">
+      <div class="container">
+        <div class="contenedor-acerca">
+          <div class="contenedor-imagen">
+            <img class="imagen-acerca" src="./assets/Img/luis.jfif" alt="Luis Olivares" title="Luis Olivares">
+          </div>
+          <div class="acerca-de-mi">
+            <h2 class="titulos">Acerca de mi</h2>
+            <p class="text">Mi nombre es Luis Olivares, estudiante de ingenieria de sistemas en quinto semestre de la
+              universidad de Cartagena, Colombia.</p>
+            <p class="text">Actualmente me encuentro inmerso en el mundo del desarollo web explorando, indagando y
+              aprendiendo por mi propia cuenta a traves de diferentes plataformas y cursos por internet.</p>
+
+            <div class="text-important datos-personales">
+              <p>Nombre: Luis Sebastian Olivares Puello</p>
+              <p>Edad: 20 años</p>
+              <p>Numero: (+57) 318 4544 760</p>
+              <p>Email: luissolivaresp@gmail.com</p>
             </div>
 
           </div>
 
+        </div>
+        <div class="desplazarse2">
+          <i class="uil uil-mouse-alt"></i>
+          <p>Desplazarse</p>
+          <i class="uil uil-angle-down"></i>
+        </div>
+        <div>
         </div>
 
 
@@ -84,32 +127,83 @@
 
 
 
-
-
-
-
-        <p>
-          El tiempo es curioso, cuando pensamos en el pasado normalmente sonreimos al recordar esos momentos de felicidad y tranquilidad, cuando nos encontramos en el presente podemos disfrutar y sentir la libertad del momento para posteriormente soñar con nuestras metas y deseos mas añorados, el tiempo es realmente algo intangible pero hermoso como cualquier maravilla natural.
-        </p>
-        <p>
-          Me encanta lo que hago, y soy realmente agradecido con el momentum,
-          Cuando adquiero nuevo conocimiento solo puedo mirar al pasado y
-          emocionarme por ver que el tiempo realmente valio la pena.
-        </p>
-
-
-
-        <p>"El conocimiento del hombre es el conocimiento de sus pasiones"</p>
-        <p>-Benjamin Disraeli</p>
       </div>
-    </main>
 
-    <footer class="footer">
+    </section>
+
+    <section class="habilidades seccion">
       <div class="container">
-        <p>Diseño de luis olivares</p>
-      </div>
-    </footer>
-  </body>
+        <div class="contenedor-habilidades">
+          <div class="habilidades-de-mi">
+            <h2 class="titulos">Habilidades</h2>
+            <div class="div-hab">
+              <div class="habilidad">
+                <p>HTML</p>
+                <progress id="HTML" max="100" value="80" />
+                <div class="w3-light-grey w3-round-xlarge">
+                  <div class="w3-container w3-blue w3-round-xlarge" style="width:25%">25%</div>
+                </div>
+              </div>
 
-  <script src="./assets/Js/main.js"></script>
+            </div>
+
+                
+                <div class="contenedor-imagen">
+                </div>
+          </div>
+
+        </div>
+        <div class="desplazarse2">
+          <i class="uil uil-mouse-alt"></i>
+          <p>Desplazarse</p>
+          <i class="uil uil-angle-down"></i>
+        </div>
+        <div>
+        </div>
+
+
+
+
+
+
+
+      </div>
+
+    </section>
+
+
+
+    <div class="cita">
+      <p>"El conocimiento del hombre es el conocimiento de sus pasiones"</p>
+      <p>-Benjamin Disraeli</p>
+    </div>
+
+    <p>
+      El tiempo es curioso, cuando pensamos en el pasado normalmente
+      sonreimos al recordar esos momentos de felicidad y tranquilidad,
+      cuando nos encontramos en el presente podemos disfrutar y sentir la
+      libertad del momento para posteriormente soñar con nuestras metas y
+      deseos mas añorados, el tiempo es realmente algo intangible pero
+      hermoso como cualquier maravilla natural.
+    </p>
+    <p>
+      Me encanta lo que hago, y soy realmente agradecido con el momentum,
+      Cuando adquiero nuevo conocimiento solo puedo mirar al pasado y
+      emocionarme por ver que el tiempo realmente valio la pena.
+    </p>
+
+
+    </div>
+
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <p>Diseño de luis olivares</p>
+    </div>
+  </footer>
+</body>
+
+<script src="./assets/Js/main.js"></script>
+
 </html>

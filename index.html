@@ -5,9 +5,14 @@
   <meta charset="UTF-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link rel="stylesheet" href="/assets/Styles/styles.css" />
+  <link rel="stylesheet" href="./assets/Styles/styles.css" />
+  <link rel="stylesheet" href="./assets/Styles/">
+
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="node_modules/@glidejs/glide/dist/css/glide.theme.min.css">
+
+  <link rel="stylesheet" href="node_modules/@glidejs/glide/dist/css/glide.core.min.css">
   <link
     href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
     rel="stylesheet">
@@ -22,7 +27,7 @@
       <a class="logo" href="/">OLIVARES</a>
 
       <span class="menu-icon">
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="-5 -7 24 24" width="32" fill="currentColor">
+        <svg xmlns="" viewBox="-5 -7 24 24" width="32" fill="currentColor">
           <path
             d="M1 0h5a1 1 0 1 1 0 2H1a1 1 0 1 1 0-2zm7 8h5a1 1 0 0 1 0 2H8a1 1 0 1 1 0-2zM1 4h12a1 1 0 0 1 0 2H1a1 1 0 1 1 0-2z">
           </path>
@@ -33,16 +38,13 @@
             <a href="#inicio">Inicio</a>
           </li>
           <li>
-            <a href="">Acerca</a>
+            <a href="#acercade">Acerca</a>
           </li>
           <li>
-            <a href="">Habilidades</a>
+            <a href="#habilidades">Habilidades</a>
           </li>
           <li>
             <a href="">Educacion</a>
-          </li>
-          <li>
-            <a href="">Tecnologias</a>
           </li>
           <li>
             <a href="">Contacto</a>
@@ -53,17 +55,20 @@
   </header>
 
   <main class="main">
-    <section class="inicio seccion">
+    <section name="inicio" id="inicio" class="inicio seccion">
       <div class="container">
 
         <div class="contenedor-inicio">
 
           <div class="contenedor-text">
             <div class="social-bar">
-              <a href=""><i class="fab fa-circle fa-github-alt"></i></a>
-              <a href=""><i class="fab fa-facebook-f"></i></a>
-              <a href=""><i class="fab fa-whatsapp"></i></a>
-              <a href=""><i class="fab fa-linkedin-in"></i></a>
+              <a title="Github" href="https://github.com/iLuisOlivares"><i class="fab fa-github"></i></a>
+              <a title="Facebook" href="https://www.facebook.com/profile.php?id=100008868072075&ref=bookmarks"><i
+                  class="fab fa-facebook-f"></i></a>
+              <a title="Whatsapp" href="https://api.whatsapp.com/send?phone=3184544760"><i
+                  class="fab fa-whatsapp"></i></a>
+              <a title="Linkedin" href="https://www.linkedin.com/in/luissolivaresp/"><i
+                  class="fab fa-linkedin-in"></i></a>
             </div>
             <div class="presentacion">
               <h2>Hola, soy Luis</h2>
@@ -74,7 +79,7 @@
                 mi mas grande sueño es poder vivir de lo que me
                 apasiona.
               </p>
-              <button class="contactame-button"> Contactame</button>
+              <button class="contactame-button">Descargar CV</button>
             </div>
           </div>
           <img class="imagen-inicio" src="./assets/Img/luis.jfif" alt="Luis Olivares" title="Luis Olivares">
@@ -82,7 +87,7 @@
 
         <div class="desplazarse">
           <i class="uil uil-mouse-alt"></i>
-          <p>Desplazarse</p>
+          <a href="#acercade">Desplazarse</a>
           <i class="uil uil-angle-down"></i>
         </div>
 
@@ -90,7 +95,7 @@
 
     </section>
 
-    <section class="acerca seccion">
+    <section name="acercade" id="acercade" class="acerca seccion">
       <div class="container">
         <div class="contenedor-acerca">
           <div class="contenedor-imagen">
@@ -98,7 +103,7 @@
           </div>
           <div class="acerca-de-mi">
             <h2 class="titulos">Acerca de mi</h2>
-            <p class="text">Mi nombre es Luis Olivares, estudiante de ingenieria de sistemas en quinto semestre de la
+            <p class="text">Mi nombre es Luis Olivares, estudiante de ingenieria de sistemas en sexto semestre de la
               universidad de Cartagena, Colombia.</p>
             <p class="text">Actualmente me encuentro inmerso en el mundo del desarollo web explorando, indagando y
               aprendiendo por mi propia cuenta a traves de diferentes plataformas y cursos por internet.</p>
@@ -113,63 +118,145 @@
           </div>
 
         </div>
-        <div class="desplazarse2">
+        <div  class="desplazarse2">
           <i class="uil uil-mouse-alt"></i>
-          <p>Desplazarse</p>
+          <a href="#habilidades">Desplazarse</a>
           <i class="uil uil-angle-down"></i>
         </div>
         <div>
         </div>
 
-
-
-
-
-
-
       </div>
 
     </section>
 
-    <section class="habilidades seccion">
+    <section id="habilidades" class="habilidades seccion">
+
+      
       <div class="container">
-        <div class="contenedor-habilidades">
-          <div class="habilidades-de-mi">
-            <h2 class="titulos">Habilidades</h2>
-            <div class="div-hab">
-              <div class="habilidad">
-                <p>HTML</p>
-                <progress id="HTML" max="100" value="80" />
-                <div class="w3-light-grey w3-round-xlarge">
-                  <div class="w3-container w3-blue w3-round-xlarge" style="width:25%">25%</div>
+
+        <h2 class="titulos center">Habilidades</h2>
+
+
+        <div class="container container22">
+
+          <div class="contenedor-habilidades">
+  
+            <div class="habilidades-de-mi">
+           
+              <div class="div-hab">
+                <div class="habilidad">
+                  <p class="text-important">HTML</p>
+                  <div class="progress-container">
+                    <div style="width: 400px;" class="progress-bar">
+                      <p class="font-bar">80%</p>
+                    </div>
+                  </div>
                 </div>
+                <div class="habilidad">
+                  <p class="text-important">CSS</p>
+                  <div class="progress-container">
+                    <div style="width: 400px;" class="progress-bar">
+                      <p class="font-bar">80%</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="habilidad">
+                  <p class="text-important">JavaScript</p>
+                  <div class="progress-container">
+                    <div style="width: 450px;" class="progress-bar">
+                      <p class="font-bar">90%</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="habilidad">
+                  <p class="text-important">Bootstrap</p>
+                  <div class="progress-container">
+                    <div style="width: 350px;" class="progress-bar">
+                      <p class="font-bar">70%</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="habilidad">
+                  <p class="text-important">React</p>
+                  <div class="progress-container">
+                    <div style="width: 300px;" class="progress-bar">
+                      <p class="font-bar">60%</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="habilidad">
+                  <p class="text-important">Git</p>
+                  <div class="progress-container">
+                    <div style="width: 400px;" class="progress-bar">
+                      <p class="font-bar">80%</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="habilidad">
+                  <p class="text-important">Java</p>
+                  <div class="progress-container">
+                    <div style="width: 300px;" class="progress-bar">
+                      <p class="font-bar">60%</p>
+                    </div>
+                  </div>
+                </div>
+  
               </div>
-
+              <div style="padding-top: 50px;" class="desplazarse">
+                <i class="uil uil-mouse-alt"></i>
+                <a>Desplazarse</a>
+                <i class="uil uil-angle-down"></i>
+              </div>
             </div>
-
-                
-                <div class="contenedor-imagen">
-                </div>
+  
+  
           </div>
-
+  
+          <div  class="contenedor-habilidades">
+  
+            <div class="habilidades-de-mi">
+              <div class="conainer2">
+                <div class="glide images">
+                  <div class="glide__track" data-glide-el="track">
+                    <ul class="glide__slides">
+                      <li class="glide__slide"><img src="./assets/Img/js.png" alt="javascript"></li>
+                      <li class="glide__slide"><img src="./assets/Img/react.png" alt="react"></li>
+                      <li class="glide__slide"><img src="./assets/Img/java.png" alt="java"></li>
+                      <li class="glide__slide"><img src="./assets/Img/git.png" alt="git"></li>
+                      <li class="glide__slide"><img src="./assets/Img/html.png" alt="html"></li>
+                      <li class="glide__slide"><img src="./assets/Img/css.png" alt="css"></li>
+                      <li class="glide__slide"><img src="./assets/Img/bs.png" alt="boostrap"></li>
+                    </ul>
+                  </div>
+  
+                  <div class="glide__arrows" data-glide-el="controls">
+                    <button class="glide__arrow glide__arrow--left" data-glide-dir="<"><i
+                        class="fas fa-chevron-left"></i></button>
+                    <button class="glide__arrow glide__arrow--right" data-glide-dir=">"><i
+                        class="fas fa-chevron-right"></i></button>
+                  </div>
+  
+                </div>
+  
+              </div>
+            
+              
+            </div>
+  
+  
+          </div>
+          
         </div>
-        <div class="desplazarse2">
-          <i class="uil uil-mouse-alt"></i>
-          <p>Desplazarse</p>
-          <i class="uil uil-angle-down"></i>
-        </div>
-        <div>
-        </div>
-
-
-
-
-
-
-
+  
       </div>
+    
+
+
+
 
     </section>
+
 
 
 
@@ -202,8 +289,18 @@
       <p>Diseño de luis olivares</p>
     </div>
   </footer>
-</body>
 
-<script src="./assets/Js/main.js"></script>
+
+
+  <script src="./assets/Js/main.js"></script>
+  <script src="node_modules/@glidejs/glide/dist/glide.min.js"></script>
+
+  <script>
+    new Glide('.glide', {autoplay: 1500,
+  hoverpause: false,
+  perView: 1}).mount()
+  </script>
+
+</body>
 
 </html>

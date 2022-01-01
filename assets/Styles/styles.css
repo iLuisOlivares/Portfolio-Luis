@@ -32,7 +32,8 @@
    justify-content:end;
    align-items: center;
    font-size: 22px;
-   color: #c8312ce5;
+   color: #c8312ce5 !important;
+
   }
 .desplazarse2{
   position: absolute;
@@ -40,15 +41,18 @@
    justify-content:end;
    align-items: center;
    font-size: 22px;
-   color: #c8312ce5;
+   color: #c8312ce5 !important;
   left: 10%;
   padding: 50px 100px;
 }
-  .desplazarse p{
+  .desplazarse a{
     margin: 0;
+   color: #c8312ce5 !important;
+
     z-index: 0;
   }
-  .desplazarse2 p{
+  .desplazarse2 a{
+   color: #c8312ce5 !important;
     margin: 0;
     z-index: 0;
   }
@@ -79,6 +83,7 @@ button{
   font-weight:normal;
   background-color: #d35956;
   border: 0;
+  cursor: pointer;
 }
 
 main {
@@ -142,7 +147,6 @@ main {
 
 
 /* INICIO */
-
 
 
 .contenedor-inicio{
@@ -248,17 +252,24 @@ main {
 
 /* HABILIDADES */
 
-
-.contenedor-habilidades{
+.center{
   display: flex;
-  justify-content: space-between;
-  align-items: center;
- 
+  justify-content: center;
+  align-items: center;  
+
 }
+
+
+.container22{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
 
 .habilidades-de-mi{
   width: 500px;
-  height: 600px;
 }
 
 .datos-personales p{
@@ -267,6 +278,7 @@ main {
 
 
 .imagen-habilidades{
+
   height: 308px;
   width: 500px;
 }
@@ -282,6 +294,70 @@ main {
   height: 560px;
   justify-content:space-around;
   flex-direction: column;
+}
+
+.progress-container{
+ border-radius: 8px;
+ height: 22px;
+ background-color: whitesmoke;
+ width: 500px;
+ border: 3.5px solid #E25854;
+ z-index: 10;
+}
+
+.progress-bar{
+  border-radius: 4px;
+  height: 21px;
+  background-color: #FFA8A6;
+  animation: progress-animation 8s infinite alternate-reverse ;
+} 
+
+.font-bar{
+  display: flex;
+  justify-content: center;
+    height: 20px;
+    width: 500px;
+    font-size: 15px;
+    flex-direction: column;
+    align-items: center;
+    color: #ffffff;
+}
+
+/* CARROUSEL */
+.hab_container{
+  display: flex;
+
+}
+
+.glide__arrow{
+  color: rgb(230, 97, 97) !important;
+  border: 0 !important; 
+  height: 3rem;
+  width: 3rem;
+}
+
+/* --- --- CAROUSEL --- --- */
+.container2{
+  margin: 0;
+  padding: 0;
+  display: block;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+}
+
+.glide__slide{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+  margin: 0;
+}
+
+.glide__slide img{
+ 
+  height: 200px;
+  width: 200px;
 }
 
 /* RESPONSIVE */

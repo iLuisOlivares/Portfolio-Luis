@@ -1,5 +1,8 @@
+html{
+  scroll-behavior: smooth;
+}
 
-
+ 
 .titulos{
   font-weight: bold;
   font-size: 50px;
@@ -359,6 +362,31 @@ main {
   height: 200px;
   width: 200px;
 }
+
+/* Educacion */
+
+.educacion{
+  display: grid;
+  grid-template-columns: 30% 40% 30%;
+}
+
+.imagenP{
+  margin: 25px 0px;
+  border-radius: 20px;
+  width: 300px;
+  height: 500px;
+  object-fit: cover;
+}
+
+.educacion h2{
+
+  color: #E25854;
+}
+
+.educacion li::marker{
+  color: #b64440;
+}
+
 
 /* RESPONSIVE */
 

@@ -15,6 +15,7 @@
     <link
       href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
       rel="stylesheet">
+      
     <script src="https://kit.fontawesome.com/982f3bb3ad.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
     <title>Luis Olivares</title>
@@ -304,40 +305,125 @@
 
     <section name="contacto" id="contacto" class="contacto seccion">
 
+      <div class="container centrar">
+
+        <div class="mensaje">
+          <div class="cita">
+            <p>"El conocimiento del hombre es el conocimiento de sus pasiones"</p>
+            <p>-Benjamin Disraeli</p>
+          </div>
+        </div>
+
+        <form id="contact " method="post">
+          <h2 class="titulos">Contactame</h3>
+            <div class="center2">
+              <input
+                placeholder="Nombre"
+                type="text"
+                tabindex="1"
+                required
+                autofocus
+                class="username inputs"
+              />
+              <input
+                placeholder="Email"
+                type="email"
+                tabindex="2"
+                required
+                class="email inputs"
+              />
+              <textarea
+                placeholder="Escribeme tu mensaje aqui"
+                tabindex="5"
+                required
+                class="message inputs"
+              ></textarea>
+              <button
+                name="submit"
+                type="submit"
+                id="contact-submit"
+                data-submit="...Sending"
+                class="submit"
+              >
+                Enviar
+              </button>
+            </div>
+        </form>
+
+
+
+      </div>
+
     </section>
-
-
-
-    <div class="cita">
-      <p>"El conocimiento del hombre es el conocimiento de sus pasiones"</p>
-      <p>-Benjamin Disraeli</p>
-    </div>
-
-    <p>
-      El tiempo es curioso, cuando pensamos en el pasado normalmente
-      sonreimos al recordar esos momentos de felicidad y tranquilidad,
-      cuando nos encontramos en el presente podemos disfrutar y sentir la
-      libertad del momento para posteriormente soñar con nuestras metas y
-      deseos mas añorados, el tiempo es realmente algo intangible pero
-      hermoso como cualquier maravilla natural.
-    </p>
-    <p>
-      Me encanta lo que hago, y soy realmente agradecido con el momentum,
-      Cuando adquiero nuevo conocimiento solo puedo mirar al pasado y
-      emocionarme por ver que el tiempo realmente valio la pena.
-    </p>
 
 
     </div>
 
   </main>
 
-  <footer class="footer">
-    <div class="container">
-      <p>Diseño de luis olivares</p>
-    </div>
-  </footer>
+      <!-- Site footer -->
+  <footer class="site-footer">
 
+        <div class="container clack">
+          <div class="row">
+            <div class="cont">
+              <h6>Sobre mi</h6>
+              <!-- <p class="text-justify">El tiempo es curioso, cuando pensamos en el pasado normalmente sonreimos al recordar esos momentos de felicidad y tranquilidad, cuando nos encontramos en el presente podemos disfrutar y sentir la libertad del momento para posteriormente soñar con nuestras metas y deseos mas añorados, el tiempo es realmente algo intangible pero hermoso como cualquier maravilla natural. -->
+
+                Me encanta lo que hago, y soy realmente agradecido con el momento, Cuando adquiero nuevo conocimiento solo puedo mirar al pasado y emocionarme por ver que el tiempo realmente valio la pena.</p>
+            </div>
+  
+            <div class="col-xs-6 col-md-3">
+              <h6>Categorias</h6>
+              <ul class="footer-links">
+                <li>
+                  <a href="#inicio">Inicio</a>
+                </li>
+                <li>
+                  <a href="#acercade">Acerca</a>
+                </li>
+                <li>
+                  <a href="#habilidades">Habilidades</a>
+                </li>
+                <li>
+                  <a href="#educacion">Educacion</a>
+                </li>
+                <li>
+                  <a href="#contacto">Contacto</a>
+                </li>
+              </ul>
+            </div>
+  
+            <div class="col-xs-6 col-md-3">
+              <h6>Otros Links</h6>
+              <ul class="footer-links">
+                <li><a href="https://www.linkedin.com/in/luissolivaresp/">Linkedin</a></li>
+                <li><a href="https://github.com/iLuisOlivares">GitHub</a></li>
+                <li><a href="https://api.whatsapp.com/send?phone=3184544760">WhatsApp</a></li>
+              </ul>
+            </div>
+          </div>
+          <hr>
+        </div>
+        <div class="container">
+          <div class="row">
+            <div class="col-md-8 col-sm-6 col-xs-12">
+              <p class="copyright-text">Copyright &copy; 2021 All Rights Reserved by 
+           <a href="#">Luis Olivares</a>.
+              </p>
+            </div>
+  
+            <div class="col-md-4 col-sm-6 col-xs-12">
+              <ul class="social-icons">
+                <li><a class="twitter" href="https://twitter.com/iLuihS"><i class="fa fa-twitter"></i></a></li>
+                <li><a class="dribbble" href="https://github.com/iLuisOlivares"><i class="fa fa-github"></i></a></li>
+                <li><a class="linkedin" href="https://www.linkedin.com/in/luissolivaresp/"><i class="fa fa-linkedin"></i></a></li>   
+              </ul>
+            </div>
+          </div>
+        </div>
+  </footer>
+  
 
 
   <script src="./assets/Js/main.js"></script>
@@ -350,6 +436,20 @@
       perView: 1
     }).mount()
   </script>
+
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+<script type="text/javascript">
+(function() {
+emailjs.init("user_D3SnG2Ug2C29tarRbxdi0");
+})();
+
+emailjs.send('YOUR_SERVICE_ID', 'YOUR_TEMPLATE_ID', templateParams)
+    .then(function(response) {
+       console.log('SUCCESS!', response.status, response.text);
+    }, function(error) {
+       console.log('FAILED...', error);
+    });
+</script>
 
 </body>
 

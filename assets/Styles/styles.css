@@ -1,7 +1,43 @@
 html{
   scroll-behavior: smooth;
 }
+input{
+  padding: 7px;
+  font-size: 16px;
+  font-family: "Poppins", sans-serif;
 
+  text-align: left;
+  border-width: 2px;
+  border-color: #c8312cb4;
+  border-radius: 9px;
+  border-style: solid;
+}
+input:focus-visible{
+
+  outline: 2px solid rgba(235, 61, 61, 0.493);
+
+}
+textarea:focus-visible{
+  outline: 2px solid rgba(235, 61, 61, 0.493);
+
+
+}
+
+textarea{
+  padding: 7px;
+  font-family: "Poppins", sans-serif;
+    font-size: 16px;
+    text-align: left;
+    border-width: 2px;
+    border-radius: 9px;
+    border-style: solid;
+    border-color: #c8312cb4;
+    resize: none;
+    height: 100px;
+}
+.cont{
+  max-width: 730px;
+}
  
 .titulos{
   font-weight: bold;
@@ -103,6 +139,20 @@ button{
   cursor: pointer;
 }
 
+
+.contact-b:visited{
+  border-radius: 6px;
+  height: 48px;
+  width: 160px;
+  color: rgb(255, 255, 255);
+  font-size: 17px;
+  font-weight:normal;
+  background-color: #d35956;
+  border: 0;
+  cursor: pointer;
+  padding: 5px;
+}
+
 main {
   min-height: 866px;
 }
@@ -127,6 +177,8 @@ main {
   letter-spacing: 5px;
   font-size: 1.2rem;
   font-weight: bold;
+  color: #c8312cb4 !important;
+
 }
 
 .container a {
@@ -134,6 +186,11 @@ main {
   color: #1f1a1a;
   transition: all 0.5s linear;
 }
+
+.contact-b{
+ color: rgb(255, 255, 255) !important;
+}
+
 
 .navigation a:hover {
   color: rgba(211, 78, 75, 1);
@@ -227,6 +284,7 @@ main {
 .imagen-inicio{
   width: 500px;
   display: block;
+  border-radius: 10px;
 }
 
 .descripcion{
@@ -257,6 +315,7 @@ main {
 .imagen-acerca{
   height: 308px;
   width: 500px;
+  border-radius: 10px;
 }
 
 .contenedor-imagen{

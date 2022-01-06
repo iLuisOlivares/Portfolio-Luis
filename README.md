@@ -4,10 +4,12 @@
 
 <h1 align="center">Welcome to my portfolio, My name is Luis </h1>
 
-[![Website](https://img.shields.io/badge/iLuisOlivares-Website-orange)](https://iluisolivares.github.io/Portfolio-Luis/)
 
-### I'm a system engineer student who love the technology, my dream is to live doing what I like and learn new things.
+### I'm a system engineer student who loves technology, my dream is to live doing what I like and constantly learn new things about the tecnology world.
 </br>
+
+[![Website ](https://img.shields.io/badge/iLuisOlivares-Website-orange)](https://iluisolivares.github.io/Portfolio-Luis/)  _No responsive for now_
+ 
 
 
 
@@ -18,6 +20,8 @@
 ![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
 ![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=java&logoColor=white)
 ![Bootstrap](https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white)
+![MySQL](https://img.shields.io/badge/MySQL-00000F?style=for-the-badge&logo=mysql&logoColor=white)
 
 <br />
 

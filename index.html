@@ -314,10 +314,11 @@
           </div>
         </div>
 
-        <form id="contact " method="post">
+        <form id="contact-form" method="post">
           <h2 class="titulos">Contactame</h3>
             <div class="center2">
               <input
+                name="name"
                 placeholder="Nombre"
                 type="text"
                 tabindex="1"
@@ -326,6 +327,7 @@
                 class="username inputs"
               />
               <input
+                name="email"
                 placeholder="Email"
                 type="email"
                 tabindex="2"
@@ -333,6 +335,7 @@
                 class="email inputs"
               />
               <textarea
+                name="menssage"
                 placeholder="Escribeme tu mensaje aqui"
                 tabindex="5"
                 required
@@ -341,6 +344,7 @@
               <button
                 name="submit"
                 type="submit"
+                value="Send"
                 id="contact-submit"
                 data-submit="...Sending"
                 class="submit"
@@ -348,20 +352,28 @@
                 Enviar
               </button>
             </div>
+
+            <div style="padding: 100px " class="desplazarse">
+              <i class="uil uil-mouse-alt"></i>
+              <a href="#inicio">Volver al inicio</a>
+              <i class="uil uil-angle-up"></i>
+            </div>
+      
         </form>
 
-
+       
 
       </div>
 
+    
+
     </section>
+    
 
 
-    </div>
 
   </main>
 
-      <!-- Site footer -->
   <footer class="site-footer">
 
         <div class="container clack">
@@ -408,7 +420,7 @@
         <div class="container">
           <div class="row">
             <div class="col-md-8 col-sm-6 col-xs-12">
-              <p class="copyright-text">Copyright &copy; 2021 All Rights Reserved by 
+              <p class="copyright-text">Copyright &copy; 2022 All Rights Reserved by 
            <a href="#">Luis Olivares</a>.
               </p>
             </div>
@@ -426,7 +438,6 @@
   
 
 
-  <script src="./assets/Js/main.js"></script>
   <script src="node_modules/@glidejs/glide/dist/glide.min.js"></script>
 
   <script>
@@ -439,18 +450,13 @@
 
 <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
 <script type="text/javascript">
-(function() {
-emailjs.init("user_D3SnG2Ug2C29tarRbxdi0");
-})();
+  (function() {
+  emailjs.init("user_D3SnG2Ug2C29tarRbxdi0");
 
-emailjs.send('YOUR_SERVICE_ID', 'YOUR_TEMPLATE_ID', templateParams)
-    .then(function(response) {
-       console.log('SUCCESS!', response.status, response.text);
-    }, function(error) {
-       console.log('FAILED...', error);
-    });
+  })();
 </script>
-
+<script type="text/javascript" src="./assets/Js/main.js"></script>
+<script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 </body>
 
 </html>

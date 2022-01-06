@@ -18,6 +18,14 @@ html{
 
 }
 
+.seccion2{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  height: 700px;
+
+}
+
 .text{
   font-size: 18px;
   font-weight: normal;
@@ -398,7 +406,7 @@ main {
 .centrar{
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: space-around;
 }
 
 .center2{
@@ -573,7 +581,7 @@ margin: 5px;
 }
 .social-icons a.dribbble:hover
 {
-  background-color:#ea4c89
+  background-color:#030303
 }
 @media (max-width:767px)
 {

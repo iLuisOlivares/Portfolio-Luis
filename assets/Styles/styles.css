@@ -822,7 +822,8 @@ main {
   }
 
   .imagen-acerca {
-    height: 210px;
+    margin: 5px;
+    height: 280px;
     width: 280px;
   }
 

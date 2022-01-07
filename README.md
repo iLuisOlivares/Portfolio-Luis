@@ -1,19 +1,15 @@
-
-
 ---
 
 <h1 align="center">Welcome to my portfolio, My name is Luis </h1>
 
-
 ### I'm a system engineer student who loves technology, my dream is to live doing what I like and constantly learn new things about the tecnology world.
+
 </br>
 
-[![Website ](https://img.shields.io/badge/iLuisOlivares-Website-orange)](https://iluisolivares.github.io/Portfolio-Luis/)  _No responsive for now_
- 
-
-
+[![Website ](https://img.shields.io/badge/iLuisOlivares-Website-orange)](https://iluisolivares.github.io/Portfolio-Luis/) _No responsive for now_
 
 ## Languages and Tools:
+
 ![Html](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
 ![Css](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/JavaScript-f7df1e?style=for-the-badge&logo=javascript&logoColor=white)
@@ -35,6 +31,7 @@ const aboutMe = {
   hobby: ["Diving", "Do sports", "Play video-games"],
 };
 ```
+
 </br>
 
 ## GitHub stadistics

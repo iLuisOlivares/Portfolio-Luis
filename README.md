@@ -6,7 +6,7 @@
 
 </br>
 
-[![Website ](https://img.shields.io/badge/iLuisOlivares-Website-orange)](https://iluisolivares.github.io/Portfolio-Luis/) _No responsive for now_
+[![Website ](https://img.shields.io/badge/iLuisOlivares-Website-orange)](https://iluisolivares.github.io/Portfolio-Luis/)
 
 ## Languages and Tools:
 

@@ -307,8 +307,8 @@ main {
 }
 
 .imagen-contacto {
-  width: 350px;
-  height: 150px;
+  width: 380px;
+  height: 180px;
   border-radius: 10px;
   -webkit-box-shadow: 0px 6px 10px -15px rgba(22, 18, 18, 0.9);
   box-shadow: 0px 5px 15px -25px rgba(14, 10, 10, 0.9);
@@ -679,5 +679,234 @@ main {
   .navigation li {
     display: block;
     padding: 12px;
+  }
+}
+
+@media only screen and (max-width: 1128px) {
+  .hide {
+    display: none;
+  }
+  /* INICIO RESPONSIVE */
+  .inicio {
+    display: block;
+    margin: 20px 0px;
+  }
+  .contenedor-inicio {
+    padding-top: 120px;
+    flex-direction: column;
+  }
+
+  .imagen-inicio {
+    margin: 20px;
+    width: 480px;
+  }
+
+  /* ACERCADE RESPONSIVE */
+
+  .acerca {
+    display: block;
+    height: auto;
+    margin: 20px 0px;
+  }
+  .contenedor-acerca {
+    flex-direction: column;
+    padding-bottom: 60px;
+  }
+
+  .contenedor-acerca div:nth-of-type(1) {
+    order: 2;
+  }
+  .contenedor-acerca div:nth-of-type(2) {
+    order: 1;
+  }
+  .contenedor-imagen {
+    height: 400px !important;
+  }
+
+  /* HABILIDADES RESPONSIVE */
+  .habilidades {
+    display: block;
+    margin: 40px 0px;
+  }
+  .contenedor-habilidades {
+    padding: 0 !important;
+  }
+  .container22 {
+    flex-direction: column-reverse;
+  }
+
+  .eduacacion {
+    display: block;
+    margin: 20px 0;
+  }
+  .educacion {
+    display: block !important;
+  }
+
+  .cimagen {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .imagenP {
+    width: auto !important;
+    max-width: 600px !important;
+    height: 300px !important;
+  }
+
+  /* CONTACTO RESPONSIVE */
+
+  .centrar2 {
+    padding: 40px;
+    flex-direction: column-reverse;
+  }
+
+  .contacto {
+    display: block;
+    height: auto;
+    margin-top: 40px;
+  }
+
+  .centrar {
+    flex-direction: column-reverse;
+  }
+
+  .social-icons {
+    width: 150px;
+  }
+}
+
+@media only screen and (max-width: 640px) {
+  .hide {
+    display: none;
+  }
+  /* INICIO RESPONSIVE */
+  .inicio {
+    display: block;
+    margin: 20px 0px;
+  }
+  .contenedor-inicio {
+    padding-top: 120px;
+    flex-direction: column;
+  }
+
+  .imagen-inicio {
+    margin: 20px;
+    width: 280px;
+  }
+
+  /* ACERCADE RESPONSIVE */
+  .acerca-de-mi {
+    width: 345px;
+    height: auto;
+  }
+  .acerca {
+    display: block;
+    height: auto;
+    margin: 20px 0px;
+  }
+  .contenedor-acerca {
+    flex-direction: column;
+    padding-bottom: 60px;
+  }
+
+  .contenedor-acerca div:nth-of-type(1) {
+    order: 2;
+  }
+  .contenedor-acerca div:nth-of-type(2) {
+    order: 1;
+  }
+  .contenedor-imagen {
+    height: 250px !important;
+  }
+
+  .imagen-acerca {
+    height: 210px;
+    width: 280px;
+  }
+
+  /* HABILIDADES RESPONSIVE */
+  .habilidades {
+    display: block;
+    height: auto;
+    margin: 40px 0px;
+  }
+
+  .contenedor-habilidades {
+    width: 300px;
+  }
+  .habilidades-de-mi {
+    width: 300px;
+  }
+  .glide__slide {
+    width: 300px;
+  }
+
+  .glide__slide img {
+    height: 80px !important;
+    width: 80px !important;
+  }
+
+  .div-hab {
+    width: auto;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+  }
+
+  .habilidad {
+    width: auto;
+    margin: 0 !important;
+  }
+  .progress-container {
+    width: 300px !important;
+  }
+
+  .font-bar {
+    width: 300px !important;
+  }
+  .container22 {
+    flex-direction: column-reverse;
+  }
+
+  .eduacacion {
+    display: block;
+    margin: 20px 0;
+    height: auto;
+  }
+  .educacion {
+    display: block !important;
+    height: auto;
+  }
+
+  .cimagen {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .imagenP {
+    width: 200px !important;
+    max-width: 600px !important;
+    height: 300px !important;
+  }
+
+  .row {
+    display: block;
+  }
+  .sociall {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .social-icons {
+    margin: 0px 0px 20px 0px;
+  }
+  .centrarR {
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 }

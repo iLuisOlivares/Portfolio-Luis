@@ -49,7 +49,3 @@ const aboutMe = {
 ## Send me a Email
 
 luissolivaresp@gmail.com
-
-## Contributions
-
-![Snake animation](https://github.com/rafaballerini/rafaballerini/blob/output/github-contribution-grid-snake.svg)

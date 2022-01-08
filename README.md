@@ -38,9 +38,8 @@ const aboutMe = {
 
 <p align="center">
     <img width="48%" src="https://github-readme-stats.vercel.app/api?username=iluisolivares&show_icons=true&theme=dracula" />
-    # <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=iluisolivares&layout=compact&langs_count=7&theme=dracula"/>
-    
-    # <!-- <img width="48%" src="https://github-readme-streak-stats.herokuapp.com/?user=iluisolivares&theme=dracula" /> -->
+  
+  
 </p>
 
 <br>
